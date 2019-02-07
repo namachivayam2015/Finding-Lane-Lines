@@ -21,11 +21,3 @@ Validated the pipeline against the test images & created corresponding output im
 Validated the pipeline against the videos provided, created corresponding output of the video under test videos output
 
 I've fine tuned parameters like Gaussian Kernel Size, Rho, Hough threshold to improve the accuracy of the solid line over the target.
-
-## Identify potential shortcomings with your current pipeline
-
-I was not able to extend the markup line till the end of the image since lanes are not a continuous line.
-
-## Suggest possible improvements to your pipeline
-
-Derive the vertices based on the image provided. One region of interest will not be valid for all cases, it may vary and thats why my pipeline was perform well in the challenge video.
